@@ -42,7 +42,7 @@ window.onload = function() {
       }
 
       //Create URL now
-      var urlReturn = "file:///Users/Josh/Desktop/Encrypty/index.html?Key=" + number;
+      var urlReturn = "https://joshs28.github.io/-Encrypty/index.html?Key=" + number;
       console.log(urlReturn);
       document.getElementById("demo").innerHTML = urlReturn;
       document.getElementById("demo").href = urlReturn;
